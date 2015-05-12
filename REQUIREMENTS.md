@@ -1,5 +1,6 @@
 
 **Requirements - MUST HAVE**
+
 	1. Ability to plug **any** authentication mechanism (JDBC, Ldap, Facebook, Twitter, Google, OAuth, Oauth2, etc.) 
 		This means that we've got to be completely agnotics regarding how Authentication providers:
 		1. Initially authenticate users (Username/Password, redirect to a provider specific login form: Twitter/Facebook/Google/others, etc.)
@@ -23,6 +24,7 @@
 	4. Add a new interface called 'User' to check roles/permissions and get the session object
 
 **Requirements - NICE TO HAVE**
+
 	1. Provide an api to list all roles and permissions assigned to a user.
 
 	If you only need to secure a web page, you would not need this. 
